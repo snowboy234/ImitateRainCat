@@ -48,15 +48,22 @@ class CatSprite: SKSpriteNode {
         
         // 如果猫在过去的2秒内没有被打中，继续朝食物前进
         if timeSinceLastHit >= maxFlailTime {
+            
+            
             // 运行步行动画序列
             if action(forKey: walkingActionKey) == nil {
                 let walkingAction = SKAction.repeatForever(
                     SKAction.animate(with: walkFrames,
                                      timePerFrame: 0.1, // 每帧持续的时间
                         resize: false,     // 是否需要调整SKSpriteNode的大小
-                        restore: false)     // 当动画结束时，精灵是否需要重置到它的初始状态
+                        restore: true)     // 当动画结束时，精灵是否需要重置到它的初始状态
                 )
                 run(walkingAction, withKey: walkingActionKey)
+            }
+            
+            // 修正旋转 ———— 判断猫是否已经被旋转，当前正在运行的这些SKAction来确定是否已经运行猫的重置动画，如果被旋转而且没有运行动画，就主动运行动画来让猫回归初始状态
+            if zRotation != 0 && action(forKey: "action_rotate") == nil {
+                run(SKAction.rotate(toAngle: 0, duration: 0.25), withKey: "action_rotate")
             }
             
             if foodLocation.x < position.x {
@@ -70,6 +77,9 @@ class CatSprite: SKSpriteNode {
                 // 默认为1，面朝右
                 xScale = 1
             }
+            
+            // 角速度
+            physicsBody?.angularVelocity = 0
         }
     }
     
