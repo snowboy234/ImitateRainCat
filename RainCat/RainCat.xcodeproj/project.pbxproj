@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0D54FC1F595E6C00B6802A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D54FB1F595E6C00B6802A /* AppDelegate.swift */; };
+		FF0D54FE1F595E6C00B6802A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D54FD1F595E6C00B6802A /* ViewController.swift */; };
+		FF0D55011F595E6C00B6802A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0D54FF1F595E6C00B6802A /* Main.storyboard */; };
+		FF0D55031F595E6C00B6802A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0D55021F595E6C00B6802A /* Assets.xcassets */; };
+		FF0D55061F595E6C00B6802A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0D55041F595E6C00B6802A /* LaunchScreen.storyboard */; };
+		FF0D55111F595E6C00B6802A /* RainCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D55101F595E6C00B6802A /* RainCatTests.swift */; };
+		FF0D551C1F595E6C00B6802A /* RainCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D551B1F595E6C00B6802A /* RainCatUITests.swift */; };
+		FF0D55341F595E8900B6802A /* BackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D552B1F595E8900B6802A /* BackgroundNode.swift */; };
+		FF0D55351F595E8900B6802A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D552D1F595E8900B6802A /* File.swift */; };
+		FF0D55361F595E8900B6802A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D552F1F595E8900B6802A /* GameScene.swift */; };
+		FF0D55371F595E8900B6802A /* CatSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D55311F595E8900B6802A /* CatSprite.swift */; };
+		FF0D55381F595E8900B6802A /* FoodSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D55321F595E8900B6802A /* FoodSprite.swift */; };
+		FF0D55391F595E8900B6802A /* UmbrellaSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D55331F595E8900B6802A /* UmbrellaSprite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF0D550D1F595E6C00B6802A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0D54F01F595E6C00B6802A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0D54F71F595E6C00B6802A;
+			remoteInfo = RainCat;
+		};
+		FF0D55181F595E6C00B6802A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0D54F01F595E6C00B6802A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0D54F71F595E6C00B6802A;
+			remoteInfo = RainCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF0D54F81F595E6C00B6802A /* RainCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0D54FB1F595E6C00B6802A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF0D54FD1F595E6C00B6802A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF0D55001F595E6C00B6802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0D55021F595E6C00B6802A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0D55051F595E6C00B6802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0D55071F595E6C00B6802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0D550C1F595E6C00B6802A /* RainCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0D55101F595E6C00B6802A /* RainCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainCatTests.swift; sourceTree = "<group>"; };
+		FF0D55121F595E6C00B6802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0D55171F595E6C00B6802A /* RainCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0D551B1F595E6C00B6802A /* RainCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainCatUITests.swift; sourceTree = "<group>"; };
+		FF0D551D1F595E6C00B6802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0D552B1F595E8900B6802A /* BackgroundNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundNode.swift; sourceTree = "<group>"; };
+		FF0D552D1F595E8900B6802A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FF0D552F1F595E8900B6802A /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FF0D55311F595E8900B6802A /* CatSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSprite.swift; sourceTree = "<group>"; };
+		FF0D55321F595E8900B6802A /* FoodSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSprite.swift; sourceTree = "<group>"; };
+		FF0D55331F595E8900B6802A /* UmbrellaSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UmbrellaSprite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0D54F51F595E6C00B6802A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D55091F595E6C00B6802A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D55141F595E6C00B6802A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF0D54EF1F595E6C00B6802A = {
+			isa = PBXGroup;
+			children = (
+				FF0D54FA1F595E6C00B6802A /* RainCat */,
+				FF0D550F1F595E6C00B6802A /* RainCatTests */,
+				FF0D551A1F595E6C00B6802A /* RainCatUITests */,
+				FF0D54F91F595E6C00B6802A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0D54F91F595E6C00B6802A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D54F81F595E6C00B6802A /* RainCat.app */,
+				FF0D550C1F595E6C00B6802A /* RainCatTests.xctest */,
+				FF0D55171F595E6C00B6802A /* RainCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0D54FA1F595E6C00B6802A /* RainCat */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D55291F595E8900B6802A /* Classes */,
+				FF0D54FB1F595E6C00B6802A /* AppDelegate.swift */,
+				FF0D54FD1F595E6C00B6802A /* ViewController.swift */,
+				FF0D54FF1F595E6C00B6802A /* Main.storyboard */,
+				FF0D55021F595E6C00B6802A /* Assets.xcassets */,
+				FF0D55041F595E6C00B6802A /* LaunchScreen.storyboard */,
+				FF0D55071F595E6C00B6802A /* Info.plist */,
+			);
+			path = RainCat;
+			sourceTree = "<group>";
+		};
+		FF0D550F1F595E6C00B6802A /* RainCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D55101F595E6C00B6802A /* RainCatTests.swift */,
+				FF0D55121F595E6C00B6802A /* Info.plist */,
+			);
+			path = RainCatTests;
+			sourceTree = "<group>";
+		};
+		FF0D551A1F595E6C00B6802A /* RainCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D551B1F595E6C00B6802A /* RainCatUITests.swift */,
+				FF0D551D1F595E6C00B6802A /* Info.plist */,
+			);
+			path = RainCatUITests;
+			sourceTree = "<group>";
+		};
+		FF0D55291F595E8900B6802A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D552A1F595E8900B6802A /* Node */,
+				FF0D552C1F595E8900B6802A /* Other */,
+				FF0D552E1F595E8900B6802A /* Scene */,
+				FF0D55301F595E8900B6802A /* Sprite */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF0D552A1F595E8900B6802A /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D552B1F595E8900B6802A /* BackgroundNode.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		FF0D552C1F595E8900B6802A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D552D1F595E8900B6802A /* File.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF0D552E1F595E8900B6802A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D552F1F595E8900B6802A /* GameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		FF0D55301F595E8900B6802A /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				FF0D55311F595E8900B6802A /* CatSprite.swift */,
+				FF0D55321F595E8900B6802A /* FoodSprite.swift */,
+				FF0D55331F595E8900B6802A /* UmbrellaSprite.swift */,
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0D54F71F595E6C00B6802A /* RainCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0D55201F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCat" */;
+			buildPhases = (
+				FF0D54F41F595E6C00B6802A /* Sources */,
+				FF0D54F51F595E6C00B6802A /* Frameworks */,
+				FF0D54F61F595E6C00B6802A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainCat;
+			productName = RainCat;
+			productReference = FF0D54F81F595E6C00B6802A /* RainCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF0D550B1F595E6C00B6802A /* RainCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0D55231F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCatTests" */;
+			buildPhases = (
+				FF0D55081F595E6C00B6802A /* Sources */,
+				FF0D55091F595E6C00B6802A /* Frameworks */,
+				FF0D550A1F595E6C00B6802A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0D550E1F595E6C00B6802A /* PBXTargetDependency */,
+			);
+			name = RainCatTests;
+			productName = RainCatTests;
+			productReference = FF0D550C1F595E6C00B6802A /* RainCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF0D55161F595E6C00B6802A /* RainCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0D55261F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCatUITests" */;
+			buildPhases = (
+				FF0D55131F595E6C00B6802A /* Sources */,
+				FF0D55141F595E6C00B6802A /* Frameworks */,
+				FF0D55151F595E6C00B6802A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0D55191F595E6C00B6802A /* PBXTargetDependency */,
+			);
+			name = RainCatUITests;
+			productName = RainCatUITests;
+			productReference = FF0D55171F595E6C00B6802A /* RainCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0D54F01F595E6C00B6802A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "田伟";
+				TargetAttributes = {
+					FF0D54F71F595E6C00B6802A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+					};
+					FF0D550B1F595E6C00B6802A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF0D54F71F595E6C00B6802A;
+					};
+					FF0D55161F595E6C00B6802A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF0D54F71F595E6C00B6802A;
+					};
+				};
+			};
+			buildConfigurationList = FF0D54F31F595E6C00B6802A /* Build configuration list for PBXProject "RainCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0D54EF1F595E6C00B6802A;
+			productRefGroup = FF0D54F91F595E6C00B6802A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0D54F71F595E6C00B6802A /* RainCat */,
+				FF0D550B1F595E6C00B6802A /* RainCatTests */,
+				FF0D55161F595E6C00B6802A /* RainCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0D54F61F595E6C00B6802A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D55061F595E6C00B6802A /* LaunchScreen.storyboard in Resources */,
+				FF0D55031F595E6C00B6802A /* Assets.xcassets in Resources */,
+				FF0D55011F595E6C00B6802A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D550A1F595E6C00B6802A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D55151F595E6C00B6802A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0D54F41F595E6C00B6802A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D55361F595E8900B6802A /* GameScene.swift in Sources */,
+				FF0D55341F595E8900B6802A /* BackgroundNode.swift in Sources */,
+				FF0D55391F595E8900B6802A /* UmbrellaSprite.swift in Sources */,
+				FF0D55351F595E8900B6802A /* File.swift in Sources */,
+				FF0D55381F595E8900B6802A /* FoodSprite.swift in Sources */,
+				FF0D55371F595E8900B6802A /* CatSprite.swift in Sources */,
+				FF0D54FE1F595E6C00B6802A /* ViewController.swift in Sources */,
+				FF0D54FC1F595E6C00B6802A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D55081F595E6C00B6802A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D55111F595E6C00B6802A /* RainCatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0D55131F595E6C00B6802A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0D551C1F595E6C00B6802A /* RainCatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF0D550E1F595E6C00B6802A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0D54F71F595E6C00B6802A /* RainCat */;
+			targetProxy = FF0D550D1F595E6C00B6802A /* PBXContainerItemProxy */;
+		};
+		FF0D55191F595E6C00B6802A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0D54F71F595E6C00B6802A /* RainCat */;
+			targetProxy = FF0D55181F595E6C00B6802A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF0D54FF1F595E6C00B6802A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0D55001F595E6C00B6802A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0D55041F595E6C00B6802A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0D55051F595E6C00B6802A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0D551E1F595E6C00B6802A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF0D551F1F595E6C00B6802A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0D55211F595E6C00B6802A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF0D55221F595E6C00B6802A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF0D55241F595E6C00B6802A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainCat.app/RainCat";
+			};
+			name = Debug;
+		};
+		FF0D55251F595E6C00B6802A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainCat.app/RainCat";
+			};
+			name = Release;
+		};
+		FF0D55271F595E6C00B6802A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainCat;
+			};
+			name = Debug;
+		};
+		FF0D55281F595E6C00B6802A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RainCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RainCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0D54F31F595E6C00B6802A /* Build configuration list for PBXProject "RainCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0D551E1F595E6C00B6802A /* Debug */,
+				FF0D551F1F595E6C00B6802A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0D55201F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0D55211F595E6C00B6802A /* Debug */,
+				FF0D55221F595E6C00B6802A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF0D55231F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0D55241F595E6C00B6802A /* Debug */,
+				FF0D55251F595E6C00B6802A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF0D55261F595E6C00B6802A /* Build configuration list for PBXNativeTarget "RainCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0D55271F595E6C00B6802A /* Debug */,
+				FF0D55281F595E6C00B6802A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0D54F01F595E6C00B6802A /* Project object */;
+}
